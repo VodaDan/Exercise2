@@ -19,7 +19,7 @@ public class RentService {
                 return false;
             }
         } else {
-            System.out.println("Vehicle " + vehicle.getName() + " is already rented !");
+            System.out.println("User " + user.getName() + " cannot rent the " + vehicle.getName() + " because it's already rented by user " + vehicle.getRentedBy().getName() + " !");
             return false;
         }
     }

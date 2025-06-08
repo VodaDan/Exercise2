@@ -7,6 +7,7 @@ public class User {
     public User(int budget, String name) {
         this.budget = budget;
         this.name = name;
+        System.out.println("User " +this.name  + " with a budget of " + this.budget + "$ has been created.");
     }
 
     public int getBudget() {

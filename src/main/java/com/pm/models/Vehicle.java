@@ -10,6 +10,7 @@ public abstract class Vehicle {
         this.name = name;
         this.cost = cost;
         this.isRented = false;
+        System.out.println("Vehicle " + this.name + " has been created and it costs " + this.cost + "$ !");
     }
 
     public int getCost() {

@@ -14,6 +14,8 @@ public class Main {
         Vehicle car = new Car(100);
         Vehicle scooter = new Scooter(5);
 
+        System.out.println("------------------------------------------");
+
         RentService.rentVehicle(A,car);
         RentService.rentVehicle(B,car);
 
